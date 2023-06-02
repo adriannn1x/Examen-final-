@@ -46,9 +46,8 @@ class ChessGame(tk.Tk):
         for widget in self.winfo_children():
             widget.destroy()
         self.create_board()
- main
-                
 
+          
     
 chess_game = ChessGame()
 chess_game.mainloop()
